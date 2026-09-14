@@ -4,22 +4,23 @@ layout: home
 
 hero:
   name: "Echox"
-  text: "Echox PHP library documentation"
-  tagline: My great project tagline
+  text: "Simple templating for PHP"
+  tagline: A lightweight template engine for PHP 8.2 with zero dependencies. Separate your business logic from your views with plain, readable PHP.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /introduction/quick-start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Why Echox?
+      link: /introduction/why-echox
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Zero dependencies
+    details: Pure PHP 8.2. No additional packages, no magic syntax to learn.
+  - title: Plain PHP templates
+    details: Views are ordinary .php files, so everything you already know about PHP just works.
+  - title: Layout inheritance
+    details: Build master layouts and compose child views with sections and yields.
+  - title: Multiple result types
+    details: Render HTML or JSON through a common ActionResult contract.
 ---
-
