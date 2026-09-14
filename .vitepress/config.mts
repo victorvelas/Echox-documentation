@@ -5,6 +5,7 @@ export default defineConfig({
   srcDir: "docs",
 
   title: "Echox",
+  base: '/',
   description: "Echox PHP library documentation",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
