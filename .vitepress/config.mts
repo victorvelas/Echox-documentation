@@ -3,11 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-
+  cleanUrls:true,
   title: "Echox",
   base: '/',
   description: "Echox PHP library documentation",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -82,5 +85,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/victorvelas/echox' }
     ]
-  }
+  },
+  lastUpdated: true
 })
